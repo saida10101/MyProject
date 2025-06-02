@@ -3,3 +3,13 @@
 
 #include "UCustomCharacter.h"
 
+
+int AUCustomCharacter::GetPoints()
+{
+	return points;
+}
+
+void AUCustomCharacter::IncrementPoints(int Quantity)
+{
+	points += Quantity;
+}
